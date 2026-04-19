@@ -1,0 +1,47 @@
+estilos.css
+/* Numero de control - 23415082440004 
+   Nombre Ángel Josué Jiménez Pineda
+   Modulo MÓDULO PROFESIONAL: DESARROLLA APLICACIONES MÓVILES PARA IOS
+   Grupo 603*/
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+}
+
+form{
+    text-align: center;
+    margin: 15px;
+}
+
+input{
+    padding: 8px;
+    margin: 5px;
+}
+
+button{
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
