@@ -1,4 +1,4 @@
-/* Estilos profesionales - Tema morado */
+/* Estilos profesionales - Tema morado SIN ANIMACIONES */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -131,13 +131,4 @@ td form input {
 }
 
 /* Botón de participantes */
-button[onclick="mostrarParticipantes()"] {
-    background-color: #ffffff;
-    color: #6a0dad;
-    border: 1px solid #6a0dad;
-    margin-top: 16px;
-}
-
-button[onclick="mostrarParticipantes()"]:hover {
-    background-color: #f3e8ff;
-}
+button[onclick="most
