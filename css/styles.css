@@ -1,34 +1,28 @@
-/* Estilos hechos por el team de 3ro de prepa - EDICIÓN ROSA */
+/* Estilos hechos por el team de 3ro de prepa - EDICIÓN ROSA FIJO */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background: linear-gradient(135deg, #ff69b4, #ff1493, #ffc0cb, #ff85c1);
-    background-size: 400% 400%;
-    animation: fondoRosita 6s infinite;
+    background-color: #ff69b4; /* Rosa chicle fijo */
     padding: 20px;
     margin: 0;
-}
-
-@keyframes fondoRosita {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
 }
 
 h2, h3 {
     text-align: center;
     color: #c71585;
-    text-shadow: 3px 3px 0px #ff69b4, -2px -2px 0px #ffb6c1;
+    text-shadow: 3px 3px 0px white, -2px -2px 0px #ffb6c1;
     font-size: 35px;
     background-color: #ffe4e1;
     border: 5px dotted #ff1493;
     border-radius: 20px;
     padding: 10px;
+    margin: 15px auto;
+    width: fit-content;
 }
 
 form {
-    background-color: rgba(255, 228, 225, 0.9);
+    background-color: #fff0f5;
     padding: 15px;
-    border: 4px solid #ff69b4;
+    border: 4px solid #ff1493;
     border-radius: 15px;
     box-shadow: 10px 10px 0px #db7093;
     margin: 20px auto;
@@ -42,7 +36,7 @@ input {
     margin: 5px;
     font-family: 'Comic Sans MS', cursive;
     font-size: 16px;
-    background-color: #fff0f5;
+    background-color: white;
 }
 
 input:focus {
@@ -52,7 +46,7 @@ input:focus {
 }
 
 button {
-    background: linear-gradient(to bottom, #ff69b4, #c71585);
+    background: linear-gradient(to bottom, #ff1493, #c71585);
     color: white;
     border: 3px solid #8b008b;
     border-radius: 50px;
@@ -66,7 +60,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to bottom, #ff1493, #ff00ff);
+    background: linear-gradient(to bottom, #ff00ff, #ff1493);
     transform: rotate(-5deg) scale(1.2);
     color: #fffacd;
 }
@@ -82,7 +76,7 @@ table {
     border-collapse: separate;
     border-spacing: 5px;
     background-color: #fff0f5;
-    border: 6px double #ff69b4;
+    border: 6px double #ff1493;
     box-shadow: 15px 15px 0px rgba(199, 21, 133, 0.5);
 }
 
@@ -115,13 +109,11 @@ button[onclick="mostrarParticipantes()"] {
     display: block;
     margin: 30px auto;
     font-size: 22px;
-    background: linear-gradient(45deg, #ff1493, #ff69b4, #ffb6c1, #ffc0cb, #ff85c1, #ff1493);
-    background-size: 400%;
-    animation: arcoirisRosa 3s linear infinite;
+    background: #ff1493;
     border: 4px solid white;
 }
 
-@keyframes arcoirisRosa {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 400% 50%; }
+button[onclick="mostrarParticipantes()"]:hover {
+    background: #c71585;
+    transform: rotate(5deg) scale(1.1);
 }
