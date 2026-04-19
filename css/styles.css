@@ -1,134 +1,47 @@
-/* Estilos profesionales - Tema morado SIN ANIMACIONES */
-* {
-    box-sizing: border-box;
+estilos.css
+/* Numero de control - 23415082440004 
+   Nombre Ángel Josué Jiménez Pineda
+   Modulo MÓDULO PROFESIONAL: DESARROLLA APLICACIONES MÓVILES PARA IOS
+   Grupo 603*/
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-    color: #212529;
-    padding: 24px;
-    line-height: 1.6;
+h2{
+    text-align: center;
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
 }
 
-h2, h3 {
-    color: #6a0dad;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-align: left;
-    border-bottom: 2px solid #e9ecef;
-    padding-bottom: 8px;
+form{
+    text-align: center;
+    margin: 15px;
 }
 
-h2 {
-    font-size: 28px;
+input{
+    padding: 8px;
+    margin: 5px;
 }
 
-h3 {
-    font-size: 22px;
-    margin-top: 32px;
-}
-
-form {
-    background-color: #ffffff;
-    padding: 24px;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-#formAgregar {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    align-items: flex-end;
-}
-
-input {
-    border: 1px solid #ced4da;
-    border-radius: 6px;
-    padding: 10px 12px;
-    font-size: 14px;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-input:focus {
-    border-color: #6a0dad;
-    outline: 0;
-    box-shadow: 0 0 0 3px rgba(106, 13, 173, 0.15);
-}
-
-button {
-    background-color: #6a0dad;
+button{
+    padding: 8px 12px;
+    background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 6px;
-    padding: 10px 16px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+    margin: 10px;
 }
 
-button:hover {
-    background-color: #5a0b9d;
+table{
+    width: 90%;
+    margin: auto;
+    background-color: white;
 }
 
-button:active {
-    background-color: #4b0082;
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
 }
-
-table {
-    width: 100%;
-    background-color: #ffffff;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    border-collapse: collapse;
-    margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    overflow: hidden;
-}
-
-th {
-    background-color: #f8f9fa;
-    color: #495057;
-    padding: 12px 16px;
-    text-align: left;
-    font-weight: 600;
-    font-size: 14px;
-    border-bottom: 2px solid #dee2e6;
-}
-
-td {
-    padding: 12px 16px;
-    border-bottom: 1px solid #e9ecef;
-    font-size: 14px;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:hover td {
-    background-color: #f8f9fa;
-}
-
-td form {
-    background: none;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 8px;
-}
-
-td form input {
-    width: 100px;
-}
-
-/* Botón de participantes */
-button[onclick="most
